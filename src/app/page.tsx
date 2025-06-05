@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>Welecome to pet market</div>
+    <div>Welecome to pets market</div>
   )
 }
 
