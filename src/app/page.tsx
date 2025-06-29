@@ -1,9 +1,9 @@
 import React from 'react'
 
-function page() {
+function Home() {
   return (
     <div>Welecome to pets market</div>
   )
 }
 
-export default page
+export default Home;
