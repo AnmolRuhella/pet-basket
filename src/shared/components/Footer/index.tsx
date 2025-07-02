@@ -1,9 +1,7 @@
-import React from 'react'
-
-function Footer() {
+export default function Footer() {
   return (
-    <div>Footers</div>
-  )
+    <footer className="text-center text-gray-500 py-4 border-t mt-6">
+      © {new Date().getFullYear()} PetBasket. All rights reserved.
+    </footer>
+  );
 }
-
-export default Footer
