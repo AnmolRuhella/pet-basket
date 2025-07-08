@@ -6,6 +6,7 @@ import Newsletter from "@/shared/components/NewsLetter";
 import Testimonials from "@/shared/components/Testimonials";
 import FeaturedPets from "@/shared/components/TrendingPets";
 import WhyChooseUs from "@/shared/components/WhyChooseUs";
+import ChatbotWidget from "@/shared/components/ChatbotWidget";
 
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
         <FeaturedPets />
       </section>
       <AboutSection />
+      <ChatbotWidget />
       <WhyChooseUs />
       <Testimonials />
       <Newsletter />
