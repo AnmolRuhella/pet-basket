@@ -13,9 +13,7 @@ export default function SubCategoryPage() {
   );
 
   return (
-    <main className="w-full"> {/* full width */}
-
-      {/* ✨ Beautiful header section */}
+    <main className="w-full"> 
       <section className="relative bg-gradient-to-r from-red-900 to-red-300 text-white py-12 px-4 shadow">
         <div className="flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold capitalize mb-3">{subCategory}</h1>
