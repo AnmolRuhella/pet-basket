@@ -7,7 +7,7 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section className="py-16 px-4 bg-yellow-50">
-      <h2 className="text-2xl font-semibold mb-8 text-center text-primary">What Our Users Say</h2>
+      <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">What Our Users Say</h2>
       <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         {testimonials.map(({ name, text }) => (
           <div key={name} className="bg-white rounded-xl shadow p-6 text-center">
