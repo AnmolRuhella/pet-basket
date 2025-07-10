@@ -14,11 +14,11 @@ export default function HomePage() {
     <main>
       <Hero />
       <section className="py-12 px-4">
-        <h2 className="text-2xl font-semibold mb-6 text-center text-primary">Browse by Category</h2>
+        <h2 className="text-4xl font-bold mb-6 text-center text-gray-800"> Categories of Pets</h2>
         <CategorySection/>
       </section>
       <section className="py-12 px-4 bg-gray-50">
-        <h2 className="text-2xl font-semibold mb-6 text-center text-primary">Trending Pets</h2>
+        <h2 className="text-4xl font-bold mb-6 text-center text-gray-800">Trending Pets</h2>
         <FeaturedPets />
       </section>
       <AboutSection />
